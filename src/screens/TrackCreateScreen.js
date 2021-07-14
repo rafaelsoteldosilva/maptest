@@ -34,14 +34,6 @@ const TrackCreateScreen = ({ navigation, route }) => {
         setDrawLineSw(!drawLineSw)
     }
 
-    // const oneMoreStep = useCallback(() => {
-    //     setSteps(steps.current + 1)
-    // })
-
-    // const stepNumber = useCallback(() => {
-    //     return steps.current
-    // })
-
     const oneMoreStep = () => {
         setSteps(steps.current + 1)
     }
